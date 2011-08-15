@@ -1,0 +1,20 @@
+name: Trace plugin
+main: org.seb.trace.TracePlugin
+version: 0.0
+
+commands:
+   trace:
+      description: Start/stop tracing player path.
+      permission: TracePlugin.trace
+      usage: |
+           /<command> [on||off] [material_id||material_name]  
+   pset:
+      description: Set a named point.
+      permission: TracePlugin.point
+      usage: |
+           /<command> point_name
+   pgo:
+      description: Go to named point.
+      permission: TracePlugin.pgo
+      usage: |
+           /<command> point_name
