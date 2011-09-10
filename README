@@ -1,5 +1,7 @@
 Trace plugin.
 
+Install: Copy 'trace.jar' to the bukkit server plugin folder.
+
 commands:
    trace:
       description: Start/stop tracing player path with given material.
