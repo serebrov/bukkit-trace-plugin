@@ -1,0 +1,16 @@
+Trace plugin.
+
+commands:
+   trace:
+      description: Start/stop tracing player path with given material.
+      		   Default material is RAILS.
+      usage: |
+           /<command> [on||off] [material_id||material_name]  
+   pset:
+      description: Set a named point.
+      usage: |
+           /<command> point_name
+   pgo:
+      description: Go (teleport) to the named point.
+      usage: |
+           /<command> point_name
